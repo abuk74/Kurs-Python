@@ -1,0 +1,6 @@
+print("Jaki masz wzrost(metry)?")
+wzrost = float(input())
+print("Ile wazysz?(kg)")
+waga = int(input())
+BMI = (waga / wzrost ** 2)
+print(BMI)
